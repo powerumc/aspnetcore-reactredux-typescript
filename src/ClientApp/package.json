@@ -1,0 +1,37 @@
+{
+  "name": "create_react_ts_app_2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.31.5",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-router-bootstrap": "^0.24.4",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.8",
+    "react-scripts": "1.0.17",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "rimraf": "^2.6.2"
+  },
+  "devDependencies": {
+    "react-app-rewired": "^1.6.2",
+    "react-scripts-ts": "^3.1.0",
+    "typescript": "^3.1.6",
+    "@types/jest": "^23.3.9",
+    "@types/node": "^10.12.2",
+    "@types/react": "^16.0.0",
+    "@types/react-dom": "^16.0.0",
+    "@types/react-router-bootstrap": "^0.24.4",
+    "@types/react-router-dom": "^4.2.2",
+    "@types/react-router-redux": "^5.0.0"
+  },
+  "scripts": {
+    "start": "rimraf ./build && react-app-rewired start --scripts-version react-scripts-ts",
+    "build": "react-app-rewired build --scripts-version react-scripts-ts",
+    "test": "react-app-rewired test --env=jsdom --scripts-version react-scripts-ts",
+    "eject": "react-scripts eject"
+  }
+}
