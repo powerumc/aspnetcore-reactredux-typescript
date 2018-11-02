@@ -12,7 +12,7 @@ dotnet new reactredux -o aspnetcore-react-redux
 
 프로젝트 생성이 성공하였다면 `cd aspnetcore-react-redux` 디렉토리로 이동한다.
 
-### 2. packages.json 파일 업데이트
+### 2. package.json 파일 업데이트
 
 `ClientApp` 디렉토리는 React+Redux 보일러플레이트가 설치된 경로이다. `cd ClientApp` 디렉토리로 이동한다.
 
