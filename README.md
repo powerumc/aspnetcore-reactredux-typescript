@@ -150,3 +150,10 @@ module.exports = function override(config, env) {
     return config;
 }
 ```
+
+### 6. 파일 확장자 변경
+
+이제 Javascript 를 사용할지, TypeScript 를 사용할지 결정하여 파일 확장자를 다음과 같이 변경하면 된다. (단, 파일 확장자를 변경하지 않아도 무방하다)
+
+1. js -> jsx
+2. js -> tsx
