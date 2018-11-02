@@ -1,6 +1,6 @@
 # aspnetcore reactredux typescript
 
-[ASP.NET Core 2.1](https://www.microsoft.com/net/download/dotnet-core/2.1) 에서는 `dotnet new reactredux` 템플릿에서 TypeScript 를 지원하지 않는다. 오직 Javascript 템플릿만 지원한다. 본 내용에서는 React+Javascript 를 React+TypeScript+Javascript 를 지원하는 환경으로 구성하는 방법을 알아본다.
+[ASP.NET Core 2.1](https://www.microsoft.com/net/download/dotnet-core/2.1) 또는 그 이상의 버전에서 `dotnet new reactredux` 템플릿에서 TypeScript 를 지원하지 않는다. 오직 Javascript 템플릿만 지원한다. 본 내용에서는 React+Javascript 를 React+TypeScript+Javascript 를 지원하는 환경으로 구성하는 방법을 알아본다.
 
 ### 1. 프로젝트 생성하기
 
